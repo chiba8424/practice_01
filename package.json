@@ -1,0 +1,22 @@
+{
+  "name": "dev_12",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiba8424/practice_01.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "chiba8424@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiba8424/practice_01/issues"
+  },
+  "homepage": "https://github.com/chiba8424/practice_01#readme"
+}
