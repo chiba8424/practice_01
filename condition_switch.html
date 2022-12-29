@@ -4,8 +4,43 @@
   </head>
   <body><!-- html tag / sementic tag / js 로 구성 -->
     <script>
-      //1. if, else if, else, if문에는 if와 else로 구성되어 있다. 
       //2. switch
+      let a = 1;
+      let b = 2;
+      let c = 3;
+      let d = 4;
+        function callSwitch(n){     
+      switch(n){
+        case a:
+          console.log(a);
+          break;
+        case b:
+          console.log(b);
+          break;
+        default:
+         console.log(c);
+         console.log(d);
+      }
+    }
+    callSwitch(3);
+
+
+    function callSwitch2(n){     
+      switch(n){
+        case a:
+          console.log(a);
+          return;
+        case b:
+          console.log(b);
+          return console.log(90);
+        default:
+         console.log(c);
+         console.log(d);
+      }
+    }
+    callSwitch2(2);
+
+      /*
       if(a) {
         console.log(a);
       } else {
@@ -25,7 +60,7 @@
          console.log(c);
          console.log(d);
         }
-      
+       */     
     </script>
   </body>
 </html>
