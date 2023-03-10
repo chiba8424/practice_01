@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/chiba8424/practice_01/issues"
   },
-  "homepage": "https://github.com/chiba8424/practice_01#readme"
+  "homepage": "https://github.com/chiba8424/practice_01#readme",
+  "dependencies": {
+    "prettier": "^2.8.4"
+  }
 }
